@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla:wght@600;700;800&family=Montserrat:wght@500&family=Mukta:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252a;
+}
+
+header {
+  background: #1f1e22;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  height: 125px;
+}
+
+.logo {
+  border-style: solid;
+  border-color: #141414;
+  border-radius: 10px 10px 10px 10px;
+  cursor: pointer;
+  max-width: 100px;
+  height: 100px;
+  margin-left: 30px;
+}
+
+li,
+a,
+.joinbtn {
+  background: #1f1e22;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #edf0f1;
+  text-decoration: none;
+  list-style: none;
+}
+
+ul,
+li {
+  background: #1f1e22;
+  display: inline;
+  padding: 15px;
+  margin: 15px;
+}
+
+nav li a:hover {
+  color: gold;
+  transition: all 0.3s ease 0s;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+nav {
+  background: #1f1e22;
+}
+
+.joinbtn {
+  background: #39604b;
+  border-style: none;
+  margin: 15px;
+  padding: 15px;
+  margin-right: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.joinbtn:hover {
+  background-color: #345242;
+}
+
+.bannertitle {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 5vw;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  margin-left: 15%;
+}
+.bannerimg {
+  height: auto;
+  width: 100%;
+  box-shadow: 0px 15px 10px -20px black;
+}
+.banner {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: justify;
+}
+
+.mission {
+  font-family: "Karla", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 16px;
+  text-align: left;
+  background: transparent;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 75px;
+}
+
+.mission h2 {
+  font-family: "Karla", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  background: transparent;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.wpbtn,
+.htbbtn {
+  font-family: "Bebas Neue", sans-serif;
+  padding: 20px 3%;
+  background-color: #39604b;
+  border-color: white;
+  color: white;
+
+  border-style: solid;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-top: 25px;
+  padding: 12px 16px;
+}
+
+.wpbtn:hover,
+.htbbtn:hover {
+  border-color: #39604b;
+  background-color: black;
+  color: #39604b;
+}
+
+.t_title {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  background: transparent;
+  margin-bottom: 20px;
+  margin-top: 75px;
+}
+
+.card_liquidity {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 20px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 50px;
+  margin-left: 85px;
+}
+
+.p_liquidity {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 16px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 100px;
+  margin-left: 60px;
+}
+
+.card_ts {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 20px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 50px;
+  margin-left: 110px;
+}
+
+.p_ts {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 16px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 100px;
+  margin-left: 60px;
+}
+
+.card_or {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 20px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.p_or {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 16px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.card_burned {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 20px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 50px;
+  margin-left: 135px;
+}
+
+.p_burned {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 16px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 100px;
+  margin-left: 35px;
+}
+
+.card_reflections {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 20px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 50px;
+  margin-left: 115px;
+}
+
+.p_reflections {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 16px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.card_pancake {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 20px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 50px;
+  padding-right: 60px;
+  padding-left: 50px;
+}
+
+.p_pancake {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 16px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 100px;
+  padding-left: 40px;
+}
+
+.tokenomics {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.card {
+  margin-top: 20px;
+  transition: box-shadow 0.2s ease-in-out;
+}
+.card:hover {
+  box-shadow: inset 0 2px 40px black;
+}
+
+.card a {
+  background-color: transparent;
+}
+
+.card a:hover {
+  color: #0078ff;
+  text-decoration: underline;
+}
+
+.imgcard {
+  background: rgba(39, 62, 84, 0.82);
+  opacity: 0.4;
+  height: 220px;
+  width: 350px;
+  display: block;
+}
+
+.jointitle {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  background: transparent;
+  margin-top: 60px;
+}
+
+.buy {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pepeimg {
+  height: 500px;
+  width: 350px;
+  margin-left: 50px;
+}
+
+.bottombanner {
+  width: 100%;
+  margin-top: 80px;
+}
+
+footer p {
+  background: #111;
+  height: auto;
+  width: auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  align-content: center;
+}
+
+.mobile_links {
+  display: none;
+}
+
+.footer-content p {
+  padding: 30px;
+}
+
+@media only screen and (max-width: 1010px) {
+  #nav_links {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .buy {
+    flex-direction: column;
+  }
+
+  .buy img {
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .mobile_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .mission {
+    margin-top: 5vh;
+  }
+
+  .mobile_links ul {
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .mobile_links ul li a {
+    margin: 0;
+    padding: 0;
+    flex-shrink: 5;
+  }
+
+  .mobile_links img {
+    height: 3vh;
+    background-color: #1f1e22;
+  }
+}
